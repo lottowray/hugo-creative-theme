@@ -87,7 +87,7 @@ Please create a separate branch for your pull request.
 
 ## License
 
-This theme is released under the Apache License 2.0 For more information read the [license](//github.com/digitalcraftsman/hugo-creative-theme/blob/master/LICENSE).
+This theme is released under the Apache License 2.0. For more information read the [license](//github.com/digitalcraftsman/hugo-creative-theme/blob/master/LICENSE).
 
 
 ## Acknowledgements
