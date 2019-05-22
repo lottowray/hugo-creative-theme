@@ -92,7 +92,7 @@ This theme is released under the Apache License 2.0. For more information read t
 
 ## Acknowledgements
 
-Thanks to: 
+Many thanks to: 
 
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project
 - [David Miller](//github.com/davidtmiller) for creating the original theme
