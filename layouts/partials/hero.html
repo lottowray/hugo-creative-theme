@@ -3,13 +3,13 @@
     <div class="header-content">
         <div class="header-content-inner">
             {{ with .Site.Params.hero.slogan }}
-                <h1>Charlotte Wray</h1>
+                <h1>Charlotte Wray – graphics and ui designer</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
                 <hr>
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
+                <p>currently designing thoughtful campaign webpages and sales enablement tools for Fujifilm's graphic systems devision.</p>
             {{ end }}
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
