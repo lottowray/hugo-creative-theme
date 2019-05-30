@@ -1,3 +1,5 @@
+# Using from the 20-05-19
+
 # Creative Theme
 
 Creative Theme is a one page portfolio for creatives based on the [original Bootstrap theme](//github.com/IronSummitMedia/startbootstrap-creative) by [David Miller](//github.com/davidtmiller). Noteworthy features of this Hugo theme are several content sections and a responsive portfolio grid with hover effects and full page portfolio item modals.
@@ -71,7 +73,7 @@ To give your projects an image, save those under [`static/img/portfolio`](//gith
 
 ### Nearly finished
 
-In order to see your site in action, run Hugo's built-in local server. 
+In order to see your site in action, run Hugo's built-in local server.
 
     $ hugo server
 
@@ -92,7 +94,7 @@ This theme is released under the Apache License 2.0. For more information read t
 
 ## Acknowledgements
 
-Many thanks to: 
+Many thanks to:
 
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project
 - [David Miller](//github.com/davidtmiller) for creating the original theme
