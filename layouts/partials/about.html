@@ -4,16 +4,16 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 {{ with .Site.Params.about.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
+                    <h2 class="section-heading">Introdcution</h2>
                 {{ end }}
                 {{ if and .Site.Params.about.headline .Site.Params.about.description }}
                     <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
+                    <p class="text-faded">Hi I'm Charlotte,  I love creating great looking graphics and delving into the world of building user experiences.</p>
                 {{ end }}
                 {{ with .Site.Params.about.buttonText }}
-                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                    <a href="#portfolio" class="btn btn-default btn-xl">See my work</a>
                 {{ end }}
             </div>
         </div>
