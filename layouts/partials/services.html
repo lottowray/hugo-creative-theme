@@ -4,8 +4,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ . }}</h2>
+                    <h2 class="section-heading">My journey to UI</h2>
                     <hr class="primary">
+
                 </div>
             </div>
         </div>
@@ -16,9 +17,39 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
-                    <h3>{{ .title }}</h3>
+                    <h3>Studing interaction design – University</h3>
                     {{ with .description }}
-                        <p class="text-muted">{{ . }}</p>
+                        <p class="text-muted">Completing an IxD mobile app project focusing on an airport traveller's journey.</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+                    <h3>Graphic design – Fujifilm</h3>
+                    {{ with .description }}
+                        <p class="text-muted">Refining and learning core principles in visual design for a vareity of materials. </p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+                    <h3>Web development and design – Fujifilm</h3>
+                    {{ with .description }}
+                        <p class="text-muted">Begin developing web pages for products and campaigns; design and coding.</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+                    <h3>Graphics and UI design – Fujifilm</h3>
+                    {{ with .description }}
+                        <p class="text-muted">Lead designer on the visual design of campaigns and the user's digital journey.</p>
                     {{ end }}
                 </div>
             </div>
