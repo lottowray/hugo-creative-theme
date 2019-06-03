@@ -83,6 +83,19 @@ p {
     background-color: #000;
 }
 
+#about .bg-primary {
+    background-color: #fff;
+    color: #000;
+}
+
+#about section {
+    padding: 0px 0;
+}
+
+.text-container {
+  padding: 115px 0 95px;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;

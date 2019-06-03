@@ -8,7 +8,7 @@
             <img class="img-fluid" src="/img/profile-pic.jpg" alt="icon">
           </div>
 
-          <div class="col-lg-8 col-lg-offset-2 text-left">
+          <div class="col-lg-8 col-lg-offset-2 text-left text-container">
 
               {{ with .Site.Params.about.headline }}
                   <h4 class="section-heading">{{ . }}</h4>
@@ -21,8 +21,14 @@
               {{ end }}
 
           </div>
+        </div>
 
-          <div class="col-lg-8 col-lg-offset-2 text-left">
+        <div class="row text-container">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="/img/digital-experience.jpg" alt="icon">
+          </div>
+
+          <div class="col-lg-6 text-left">
               {{ with .Site.Params.about.headline }}
                   <h4 class="section-heading">My focus</h4>
               {{ end }}
