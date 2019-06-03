@@ -61,7 +61,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #000;
 }
 
 .bg-dark {
@@ -147,7 +147,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(0,0,0,.7);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -203,9 +203,9 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    font-size: 84px;
+    font-size: 76px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 24px;
     font-weight: 700;
 }
 
@@ -237,19 +237,23 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 930px;
     }
 
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 100%;
-        font-size: 72px;
+        font-size: 68px;
     }
 }
 
 .section-heading {
     margin-top: 0;
+}
+
+.section-padding {
+    margin: 0, 95px;
 }
 
 .service-box {
@@ -396,7 +400,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -448,7 +452,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn {
     border: 0;
-    border-radius: 300px;
+    border-radius: 0px;
     text-transform: uppercase;
     font-family: 'Roboto','Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
