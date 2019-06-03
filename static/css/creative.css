@@ -69,6 +69,11 @@ p {
     line-height: 1.5;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .textbold {
   font-size: 36px;
   font-weight: 700;
