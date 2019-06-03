@@ -248,12 +248,14 @@ header .header-content .header-content-inner p {
     }
 }
 
-.section-heading {
-    margin-top: 0;
+#about @media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
 }
 
-.section-padding {
-    margin: 0, 95px;
+.section-heading {
+    margin-top: 0;
 }
 
 .service-box {
