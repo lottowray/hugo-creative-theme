@@ -54,10 +54,22 @@ h6 {
     font-family: 'Roboto','Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h4 {
+  font-size: 16px;
+  color: #828282;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.textbold {
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .bg-primary {
@@ -203,7 +215,7 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    font-size: 76px;
+    font-size: 76px !important;
     margin-top: 0;
     margin-bottom: 24px;
     font-weight: 700;
