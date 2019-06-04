@@ -14,6 +14,12 @@ body {
     font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
 
+@media (min-width: 960px) {
+.container {
+    width: 960px;
+}
+}
+
 hr {
     max-width: 50px;
     border-color: #8ce3e4;
@@ -36,7 +42,10 @@ a:focus {
     color: #1fe4d8;
 }
 
-
+.link-decoration {
+  color: #000;
+  text-decoration: underline;
+}
 /*!
 #about a {
     color: rgba(52, 52, 52, .7);
@@ -92,6 +101,12 @@ p {
   font-size: 18px;
 }
 
+.large-text {
+  font-size: 68px;
+  font-weight: 700;
+  color: #000;
+}
+
 
 .vl {
   border-left: 6px solid #F2F2F2;
@@ -124,7 +139,7 @@ p {
 }
 
 .text-container {
-  padding: 75px 0 95px;
+  padding: 75px 15px 95px;
 }
 
 .center {
@@ -134,8 +149,8 @@ p {
 }
 
 .bg-dark {
-    color: #fff;
-    background-color: #222;
+    color: #000;
+    background-color: #fff;
 }
 
 .text-faded {
@@ -147,7 +162,7 @@ section {
 }
 
 aside {
-    padding: 50px 0;
+    padding: 115px 0 0;
 }
 
 .no-padding {
@@ -272,7 +287,7 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    font-size: 74px !important;
+    font-size: 68px !important;
     margin-top: 0;
     margin-bottom: 24px;
     font-weight: 700;
@@ -306,15 +321,14 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1140px;
+        max-width: 930px;
     }
 
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 100%;
-        font-size: 62px;
-        letter-spacing: 1px;
+        font-size: 52px;
     }
 }
 
@@ -349,7 +363,7 @@ header .header-content .header-content-inner p {
         margin: 0 auto 100px;
     }
     .service-textbox {
-        margin: 10% auto 0;
+        margin: 5% auto;
     }
 }
 
@@ -374,7 +388,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(0,0,0,.8);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;

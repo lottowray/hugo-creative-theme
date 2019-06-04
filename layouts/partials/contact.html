@@ -2,17 +2,19 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 text-left">
                 {{ with .Site.Params.contact.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
+                    <h2 class="section-heading large-text">Work inquiry, question or something else? <a href="mailto:hello@charlottewray.co.uk" class="link-decoration">Email me</a></h2>
                 {{ end }}
                 {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
-                    <hr class="primary">
+                    <!--<hr class="primary">-->
                 {{ end }}
                 {{ with .Site.Params.contact.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
             </div>
+
+            <!--
             {{ if .Site.Params.contact.phone }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
@@ -37,6 +39,7 @@
                     <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
             {{ end }}
+             -->
         </div>
     </div>
 </section>
