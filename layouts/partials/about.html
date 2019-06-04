@@ -1,5 +1,5 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section class="bg-primary" id="about">
+<section class="about-padding" id="about">
     <div class="container">
 
         <div class="row">
@@ -17,18 +17,18 @@
                 <!--  <hr class="light"> -->
               {{ end }}
               {{ with .Site.Params.about.description }}
-                  <p class="text-faded textbold">{{ . | markdownify }}</p>
+                  <p class="textbold">{{ . | markdownify }}</p>
               {{ end }}
 
           </div>
         </div>
 
-        <div class="row text-container">
+        <div class="row">
           <div class="col-lg-6">
             <img class="img-fluid" src="/img/digital-experience.jpg" alt="icon">
           </div>
 
-          <div class="col-lg-6 text-left">
+          <div class="col-lg-6 text-left center">
               {{ with .Site.Params.about.headline }}
                   <h4 class="section-heading">My focus</h4>
               {{ end }}
@@ -36,10 +36,10 @@
                 <!--  <hr class="light"> -->
               {{ end }}
               {{ with .Site.Params.about.description }}
-                  <p class="text-faded textbold">Experience is everything: To design functional digital experiences that engage with the user and deliver effective journeys.</p>
+                  <p class="textbold">Experience is everything: To design functional digital experiences that engage with the user and deliver effective journeys.</p>
               {{ end }}
               {{ with .Site.Params.about.buttonText }}
-                  <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                  <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
               {{ end }}
           </div>
         </div>
