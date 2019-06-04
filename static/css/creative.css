@@ -201,7 +201,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(0,0,0,.3);
+        border-color: rgba(0,0,0,0);
         background-color: transparent;
     }
 
@@ -272,7 +272,7 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    font-size: 82px !important;
+    font-size: 74px !important;
     margin-top: 0;
     margin-bottom: 24px;
     font-weight: 700;
@@ -313,7 +313,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 100%;
-        font-size: 72px;
+        font-size: 62px;
         letter-spacing: 1px;
     }
 }
